@@ -14,33 +14,12 @@ It solves the need to perform sometimes really heavy computation either server s
 
 The AI model is trained on precomputed physics simulations (e.g., projectile motion, collisions, ragdoll physics). During gameplay, instead of running a full physics simulation, the AI quickly predicts the outcome of interactions. Game engines can integrate this model to optimize calculations in physics-heavy scenarios (e.g., destructible environments, fluid physics, soft bodies). Given more AI oriented GPU structures of recent cards, this should be more accessible to approach as well.
 
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
+
 ![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
 
 If you need to resize images, you have to use an HTML tag, like this:
 <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
 
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
-
-   totPop = sum(pop)
-   totFish = sum(fishers)
-
-   # write your solution here
-
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
-```
-
-
-## Data sources and AI methods
 ## Challenges
 
 It doesnt entirely eliminate the need for computational power, but rather frontloads it into the simulations you run to teach your AI or ml algo to predict better. Which for rather large studios should be fine, but for smaller, less accessible, and it might widen the gap. Altough I'm sure some engine like unreal would incorporate it into their engine at some point.
