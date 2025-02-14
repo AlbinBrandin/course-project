@@ -24,11 +24,3 @@ It doesnt entirely eliminate the need for computational power, but rather frontl
 ## What next?
 
 I think this would be possible to essentially proof of concept on my own, with some time. But to showcase real feasibility it would almost need to be trained on larger amounts of data. I am an undergrad in physics, but my current gamedev knowledge is limited to physics simulation, and as such would most likely need a team of AI and game developers.
-
-
-## Acknowledgments
-
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
