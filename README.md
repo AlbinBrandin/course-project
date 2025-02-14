@@ -17,9 +17,6 @@ The AI model is trained on precomputed physics simulations (e.g., projectile mot
 
 ![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
 
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
-
 ## Challenges
 
 It doesnt entirely eliminate the need for computational power, but rather frontloads it into the simulations you run to teach your AI or ml algo to predict better. Which for rather large studios should be fine, but for smaller, less accessible, and it might widen the gap. Altough I'm sure some engine like unreal would incorporate it into their engine at some point.
